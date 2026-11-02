@@ -1,0 +1,156 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #faf6f6;
+  color: #4a3535;
+}
+
+.announcement {
+  background-color: #f3d1d1;
+  color: #4a3535;
+  text-align: center;
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.header {
+  background-color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f3d1d1;
+}
+
+.logo {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  color: #4a3535;
+}
+
+.logo-circle {
+  background-color: #f3d1d1;
+  padding: 5px 12px;
+  border-radius: 50%;
+  color: #4a3535;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  margin: 0 15px;
+  font-weight: 600;
+  color: #8c6d6d;
+  cursor: pointer;
+}
+
+.nav button:hover {
+  color: #d4af37;
+}
+
+.header-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4a3535;
+  position: relative;
+}
+
+.bag-icon span {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #d4af37;
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.hero {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://unsplash.com');
+  background-size: cover;
+  padding: 100px 50px;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #4a3535;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #f3d1d1 0%, #e0b0b0 100%);
+  color: #4a3535;
+  border: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #f3d1d1;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.add-button {
+  background-color: #4a3535;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.toast-message {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4a3535;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #f3d1d1;
+  border-radius: 8px;
+}
